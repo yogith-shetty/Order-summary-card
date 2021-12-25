@@ -1,0 +1,59 @@
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:hsl(225, 100%, 94%) ;
+}   
+
+.main{
+    /* height: 50%; */
+    width: 27%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.img-pic img{
+    width: 100%;
+}
+.content{
+    padding: 10px 20px;
+}
+.plan{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:hsl(225, 100%, 98%);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+.plan img{
+    margin-right: 20px;
+}
+.plan p{
+    margin-right: 70px;
+}
+.plan a{
+    color: hsl(224, 23%, 55%);
+}
+
+.payment{
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 3% 10%;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 10px;
+}
+
+.order{
+    margin: 15px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
